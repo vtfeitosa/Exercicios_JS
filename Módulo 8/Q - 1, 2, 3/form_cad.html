@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="form_cad.css" />
+    </head>
+
+    <body>
+        <header>
+            <!-- Topo da Página -->
+            <div class="development">
+                Developed by <a href="https://github.com/vtfeitosa" target="_blank">vtfeitosa</a>
+            </div>
+        </header>
+        <main>
+            <h1>Cadastro</h1>
+            <div class="bloco_info">
+                <div class="bloco">
+                    <div>
+                        <p>Nome:</p>
+                        <input id="name" type="text" />
+                    </div>
+                    <div>
+                        <p>Data de Nascimento:</p>
+                        <input id="bDate" type="date" />
+                    </div>
+                    <div>
+                        <p>Gênero:</p>
+                        <select id="gender">
+                            <option value="ND" disabled selected> Selecione uma Opção:</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Masculino">Maculino</option>
+                            <option value="Não Declarado">Não Declarado</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="bloco">
+                    <div>
+                        <p>Peso:</p>
+                        <input id="weight" type="text" />
+                    </div>
+                    <div>
+                        <p>Altura:</p>
+                        <input id="height" type="text" />
+                    </div>
+                    <button id="ok">ok</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!-- Rodapé da Página -->
+            <section class="footer_extra">
+                <p>So, this page was developed as an activity of the Introduction to HTML Course at Alpha EdTech, by the student <a href="https://www.linkedin.com/in/vtfeitosa/" target="_blank">Vitória Feitosa</a>.<br/> 
+                    All the code is being studied, patience... Thank you for understanding. :)
+                </p>
+                <p>Last Update on 16 | June | 2022 </p>
+            </section>
+        </footer>
+        <script src="form_cad.js"></script>
+    </body>
+</html>
