@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    
+}
+
+header {
+    color: #fff;
+
+}
+
+.development {
+    background-color: black;
+
+    text-align: center;
+
+    padding: 10px;
+
+}
+
+.development a:hover {
+    color: grey;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: 100;
+
+    color: grey;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+}
+
+footer {
+    color: #fff;
+}
+
+.footer_extra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+    text-align: center;
+}
+
+#tabuleiro {
+    width: 310px;
+    height: 310px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+ 
+#tabuleiro div > div {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-color: black;
+    background-color: #fff;
+    margin: 1px;
+
+    font-size: 110px;
+
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
